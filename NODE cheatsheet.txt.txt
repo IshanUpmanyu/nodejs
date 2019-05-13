@@ -1,0 +1,12 @@
+npm list: List dependency heirarchy
+npm i : Install all packages of package.json
+npm view mongoose: see details of mongoose package
+npm view mongoose dependencies: see only dependencies
+npm view mongoose versions: see all released versions
+npm i mogoose@2.4.1: Install a specific version of mongoose
+npm outdated: shows outdated dependencies
+npm update: updates the library where latest version is in same major version. 
+npm-check-update package updates the dependencies latest version in package.json
+ncu -u: updates package.json to update to latest version. Now you can run npm i to install latest dependencies
+npm i jshint --save-dev: install jshint as dev-dependency
+npm un mongoose:  uninstall mogoose
